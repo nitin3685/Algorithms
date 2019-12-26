@@ -1,3 +1,6 @@
+#https://en.m.wikipedia.org/wiki/Karatsuba_algorithm#Pseudocode
+#https://stackoverflow.com/questions/42324419/karatsuba-multiplication-implementation
+
 def karatsuba(num1,num2):
     if (num1 < 10) or (num2 < 10):
         return num1 * num2
